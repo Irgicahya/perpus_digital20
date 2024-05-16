@@ -64,7 +64,7 @@
 <div class="row">
     <div class="col-lg-12 d-flex justify-content-center mt-5">
         <nuxt-link to="/">
-          <button type="submit" class="btn btn-warning btn-lg rounded-3 px-3">Kembali</button>
+          <button type="submit" class="btn btn-secondary btn-lg rounded-3 px-3">Kembali</button>
     </nuxt-link>
     </div>
     </div>
