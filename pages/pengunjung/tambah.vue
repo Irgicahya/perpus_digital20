@@ -55,7 +55,7 @@
             </select> 
           </div>
           <div> 
-            <button type="submit" class="btn btn-success btn-lg rounded-3 px-3"> Kirim </button>
+            <button type="submit" class="btn btn-blue btn-lg rounded-3 px-3"> Kirim </button>
           </div>
     </form>
     </div>
