@@ -31,7 +31,7 @@
       </table>
     </div>
   </div>
-  <div class="my-3 text-muted">klik untuk kembali ke home</div>
+  <div class="my-3 text-muted"> </div>
   <nuxt-link to="/">
         <button type="submit" class="btn btn-secondary btn-lg rounded-3 px-3">Kembali</button>
 </nuxt-link>
