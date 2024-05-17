@@ -14,7 +14,7 @@
           <div class="card mb-3 dcdc "> 
             <div class="card-body">
             <NuxtLink :to ="`/buku/${book.id}`">
-                <img :src="book.cover" alt="" width="200" height="230">
+                <img :src="book.cover" alt="" width="186" height="205">
                 <h6> {{  book.judul  }}</h6>
               </NuxtLink>
             </div>
@@ -43,7 +43,6 @@
 
 .dcdc{
   height: 100%;
-  width: 69%;
 }
 
 </style>
