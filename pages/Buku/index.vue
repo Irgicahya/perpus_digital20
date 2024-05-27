@@ -12,7 +12,7 @@
       <div class="row"> 
         <div v-for="(book,i) in books" :key="i" class="col-lg-2 pb-5"> 
           <div class="card mb-3 dcdc "> 
-            <div class="card-body">
+            <div class="card-header">
             <NuxtLink :to ="`/buku/${book.id}`">
                 <img :src="book.cover" alt="" width="186" height="205">
                 <h6> {{  book.judul  }}</h6>
@@ -42,6 +42,7 @@
 }
 
 .dcdc{
+  width : 220px;
   height: 100%;
 }
 
