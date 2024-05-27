@@ -10,14 +10,17 @@
       </div>
       <div class="my-3 text-muted fs-6">menampilkan {{ books.length }} dari {{ jumlah }}</div>
       <div class="row"> 
-        <div v-for="(book,i) in books" :key="i" class="col-lg-2 pb-5"> 
+        <div v-for="(book,i) in books" :key="i" class="col-lg-2 pb-5">
+          <NuxtLink :to ="`/buku/${book.id}`">
           <div class="card mb-3 dcdc "> 
             <div class="card-header">
-            <NuxtLink :to ="`/buku/${book.id}`">
                 <img :src="book.cover" alt="" width="186" height="205">
-                <h6> {{  book.judul  }}</h6>
-              </NuxtLink>
-            </div>
+              </div>
+           <div class="card-body d-flex justify-content-center align-items-center" style="height: 50px;">
+              <h6> {{  book.judul  }}</h6>
+             </div>
+            </div>  
+            </NuxtLink>
           </div>
         </div>
       </div>
